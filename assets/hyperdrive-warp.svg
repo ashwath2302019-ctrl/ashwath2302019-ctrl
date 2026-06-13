@@ -1,0 +1,144 @@
+<svg width="1200" height="280" xmlns="http://www.w3.org/2000/svg">
+
+<style>
+
+.background{
+fill:#0d1117;
+}
+
+.star{
+fill:#58a6ff;
+opacity:.8;
+}
+
+.s1{animation:warp1 2s linear infinite;}
+.s2{animation:warp2 1.7s linear infinite;}
+.s3{animation:warp3 2.3s linear infinite;}
+.s4{animation:warp4 1.5s linear infinite;}
+.s5{animation:warp5 2.8s linear infinite;}
+
+@keyframes warp1{
+from{transform:translateX(0)}
+to{transform:translateX(-1400px)}
+}
+
+@keyframes warp2{
+from{transform:translateX(0)}
+to{transform:translateX(-1400px)}
+}
+
+@keyframes warp3{
+from{transform:translateX(0)}
+to{transform:translateX(-1400px)}
+}
+
+@keyframes warp4{
+from{transform:translateX(0)}
+to{transform:translateX(-1400px)}
+}
+
+@keyframes warp5{
+from{transform:translateX(0)}
+to{transform:translateX(-1400px)}
+}
+
+.title{
+fill:#ffffff;
+font-family:'Segoe UI',sans-serif;
+font-size:56px;
+font-weight:bold;
+animation:glow 3s ease-in-out infinite;
+}
+
+.subtitle{
+fill:#c9d1d9;
+font-family:'Segoe UI',sans-serif;
+font-size:18px;
+letter-spacing:1px;
+}
+
+@keyframes glow{
+
+0%,100%{
+filter:
+drop-shadow(0 0 5px #58a6ff);
+}
+
+50%{
+filter:
+drop-shadow(0 0 10px #58a6ff)
+drop-shadow(0 0 25px #58a6ff)
+drop-shadow(0 0 50px #58a6ff);
+}
+
+}
+
+.rocket{
+animation:float 3s ease-in-out infinite;
+}
+
+@keyframes float{
+0%,100%{
+transform:translateY(0px);
+}
+50%{
+transform:translateY(-8px);
+}
+}
+
+</style>
+
+<rect width="100%" height="100%" class="background"/>
+
+<!-- Warp Stars -->
+
+<rect x="1150" y="40" width="70" height="2" class="star s1"/>
+<rect x="1050" y="70" width="100" height="2" class="star s2"/>
+<rect x="980" y="110" width="80" height="2" class="star s3"/>
+<rect x="1120" y="150" width="120" height="2" class="star s4"/>
+<rect x="1080" y="200" width="90" height="2" class="star s5"/>
+
+<rect x="1180" y="60" width="50" height="2" class="star s3"/>
+<rect x="1000" y="90" width="120" height="2" class="star s5"/>
+<rect x="1090" y="170" width="80" height="2" class="star s1"/>
+<rect x="1020" y="230" width="100" height="2" class="star s4"/>
+
+<!-- Rocket -->
+
+<g class="rocket">
+<text x="170" y="150" font-size="48">
+🚀
+</text>
+</g>
+
+<!-- Name -->
+
+<text x="600"
+      y="120"
+      text-anchor="middle"
+      class="title">
+ASHWATH S K
+</text>
+
+<text x="600"
+      y="165"
+      text-anchor="middle"
+      class="subtitle">
+ASPIRING FULL STACK DEVELOPER • ECE STUDENT
+</text>
+
+<text x="600"
+      y="200"
+      text-anchor="middle"
+      class="subtitle">
+HTML • CSS • JAVASCRIPT • REACT • NODE.JS
+</text>
+
+<text x="600"
+      y="235"
+      text-anchor="middle"
+      class="subtitle">
+ENTERING HYPERDRIVE ⚡
+</text>
+
+</svg>
