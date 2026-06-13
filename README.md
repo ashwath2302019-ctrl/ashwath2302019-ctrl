@@ -36,6 +36,8 @@
   <img src="assets/dual-reactor.svg" width="80%">
 </p>
 
+
+
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=vetical&theme=radical)
 
@@ -43,5 +45,11 @@
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=ashwath2302019-ctrl&theme=github-dark&hide_border=true" />
+</p>
+
+## 💻 Terminal
+
+<p align="center">
+  <img src="assets/hacker-terminal.svg" width="100%">
 </p>
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
