@@ -26,16 +26,16 @@
 ![](https://streak-stats.demolab.com/?user=ashwath2302019-ctrl&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats.shion.dev/api/top-langs/?username=ashwath2302019-ctrl&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=ashwath2302019-ctrl&theme=radical&no-frame=false&no-bg=false&margin-w=4)
+<p align="center">
+  <img src="assets/arc-reactor.svg" width="350">
+</p>
 
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=vetical&theme=radical)
 
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=ashwath2302019-ctrl&limit=5&theme=dark&combine_all_yearly_contributions=true)
+## 📈 Contribution Activity
 
----
-[![](https://komarev.com/ghpvc/?username=ashwath2302019-ctrl&icon=0&color=0)](https://visitcount.itsvg.in)
-
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ashwath2302019-ctrl&theme=github-dark&hide_border=true" />
+</p>
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
