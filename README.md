@@ -1,6 +1,6 @@
-
-
-
+<p align="center">
+  <img src="./assets/neon-banner.svg" width="100%">
+</p>
 
 
 ## 🌐 Socials:
