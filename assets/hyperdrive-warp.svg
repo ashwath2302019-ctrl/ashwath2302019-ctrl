@@ -73,19 +73,6 @@ drop-shadow(0 0 50px #58a6ff);
 
 }
 
-.rocket{
-animation:float 3s ease-in-out infinite;
-}
-
-@keyframes float{
-0%,100%{
-transform:translateY(0px);
-}
-50%{
-transform:translateY(-8px);
-}
-}
-
 </style>
 
 <rect width="100%" height="100%" class="background"/>
@@ -103,13 +90,16 @@ transform:translateY(-8px);
 <rect x="1090" y="170" width="80" height="2" class="star s1"/>
 <rect x="1020" y="230" width="100" height="2" class="star s4"/>
 
-<!-- Rocket -->
+<!-- Energy Core -->
 
-<g class="rocket">
-<text x="170" y="150" font-size="48">
-🚀
-</text>
-</g>
+<circle cx="600" cy="108" r="10"
+        fill="#58a6ff"
+        opacity="0.5">
+  <animate attributeName="r"
+           values="10;18;10"
+           dur="2s"
+           repeatCount="indefinite"/>
+</circle>
 
 <!-- Name -->
 
@@ -138,7 +128,7 @@ HTML • CSS • JAVASCRIPT • REACT • NODE.JS
       y="235"
       text-anchor="middle"
       class="subtitle">
-ENTERING HYPERDRIVE ⚡
+LEARNING • BUILDING • IMPROVING ⚡
 </text>
 
 </svg>
