@@ -1,0 +1,34 @@
+<svg width="800" height="120" xmlns="http://www.w3.org/2000/svg">
+
+<style>
+rect{
+fill:#58a6ff;
+animation:beat 1s infinite;
+transform-origin:bottom;
+}
+
+.r1{animation-delay:.1s}
+.r2{animation-delay:.2s}
+.r3{animation-delay:.3s}
+.r4{animation-delay:.4s}
+.r5{animation-delay:.5s}
+.r6{animation-delay:.6s}
+.r7{animation-delay:.7s}
+.r8{animation-delay:.8s}
+
+@keyframes beat{
+0%,100%{height:20px;y:80px}
+50%{height:90px;y:10px}
+}
+</style>
+
+<rect class="r1" x="100" y="80" width="25" height="20"/>
+<rect class="r2" x="150" y="80" width="25" height="20"/>
+<rect class="r3" x="200" y="80" width="25" height="20"/>
+<rect class="r4" x="250" y="80" width="25" height="20"/>
+<rect class="r5" x="300" y="80" width="25" height="20"/>
+<rect class="r6" x="350" y="80" width="25" height="20"/>
+<rect class="r7" x="400" y="80" width="25" height="20"/>
+<rect class="r8" x="450" y="80" width="25" height="20"/>
+
+</svg>
